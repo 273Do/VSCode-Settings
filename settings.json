@@ -1,0 +1,77 @@
+{
+  // VSCode Theme Settings
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000",
+    "tab.activeBorder": "#fff"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.systemColorTheme": "dark",
+  "window.autoDetectColorScheme": false,
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "explorer.compactFolders": false,
+  // Icon Settings
+  "workbench.iconTheme": "material-icon-theme",
+  // Indent Rainbow Settings
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "indentRainbow.colors": [
+    "rgba(255, 255, 64, 0.2)",
+    "rgba(127, 255, 127, 0.2)",
+    "rgba(255, 127, 255, 0.2)",
+    "rgba(79, 236, 236, 0.2)"
+  ],
+  // Explorer Indent Settings
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  // Formatter Settings
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[css][javascript][typescript][javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
+    }
+  },
+  // Error Lens Settings
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "emoji",
+  "errorLens.gutterEmoji": {
+    "error": "🔥",
+    "warning": "🌟",
+    "info": "📘",
+    "hint": "🍏"
+  },
+  // TODO Tree Settings
+  "todo-tree.highlights.defaultHighlight": {
+    "gutterIcon": false
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "issue-closed",
+      "foreground": "#000",
+      "iconColour": "#fff",
+      "background": "#fff"
+    },
+    "MEMO": {
+      "icon": "paintbrush",
+      "foreground": "#000",
+      "iconColour": "#fff",
+      "background": "#fff"
+    }
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "MEMO"
+  ],
+  // Commnet Translate Settings
+  "commentTranslate.hover.nearShow": false,
+}
