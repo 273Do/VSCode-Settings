@@ -14,6 +14,7 @@
   "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
   "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
   // Icon Settings
   "workbench.iconTheme": "material-icon-theme",
   // Indent Rainbow Settings
