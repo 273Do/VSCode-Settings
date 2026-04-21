@@ -3,7 +3,7 @@
   "workbench.colorTheme": "Default Dark+",
   "workbench.colorCustomizations": {
     "terminal.background": "#00000000",
-    "tab.activeBorder": "#fff"
+    "tab.activeBorder": "#ffffff99"
   },
   "terminal.integrated.gpuAcceleration": "off",
   "window.systemColorTheme": "dark",
@@ -15,6 +15,9 @@
   "chat.commandCenter.enabled": false,
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
+  // Indent Guide Settings
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
   // Icon Settings
   "workbench.iconTheme": "material-icon-theme",
   // Formatter Settings
@@ -43,7 +46,7 @@
     "rgba(79, 236, 236, 0.2)"
   ],
   // Error Lens Settings
-  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconsEnabled": false,
   "errorLens.gutterIconSet": "emoji",
   "errorLens.gutterEmoji": {
     "error": "🔥",
