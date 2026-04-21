@@ -18,6 +18,7 @@
   // Indent Guide Settings
   "editor.guides.indentation": true,
   "editor.guides.bracketPairs": true,
+  "editor.renderWhitespace": "boundary",
   // Icon Settings
   "workbench.iconTheme": "material-icon-theme",
   // Formatter Settings
