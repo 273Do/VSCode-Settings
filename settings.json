@@ -15,6 +15,7 @@
   "chat.commandCenter.enabled": false,
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
+  "eslint.useFlatConfig": true,
   // Indent Guide Settings
   "editor.guides.indentation": true,
   "editor.guides.bracketPairs": true,
@@ -77,6 +78,9 @@
     "TODO",
     "MEMO"
   ],
+  // Discord Presence Settings
+  "discord.removeDetails": true,
+  "discord.removeLowerDetails": true,
   // Commnet Translate Settings
   "commentTranslate.hover.nearShow": false,
 }
